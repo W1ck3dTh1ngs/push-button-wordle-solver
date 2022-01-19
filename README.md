@@ -2,7 +2,7 @@
 
 This was just a fun project to see if I could write a slapdash script to solve Wordle or Absurdle automatically (with some human help along the way to keep track of letters).
 
-[Absurdle](https://qntm.org/files/wordle/index.html) | [Wordle](https://www.powerlanguage.co.uk/wordle/)
+[Wordle](https://www.powerlanguage.co.uk/wordle/) | [Absurdle](https://qntm.org/files/wordle/index.html)
 
 If using this with Absurdle, use the random guess first. It seems that Absurdle is deterministic.
 
