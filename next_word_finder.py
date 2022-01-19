@@ -28,7 +28,6 @@ def find_next_word():
       if char in misplaced_letters[idx]:
         misplaced = True
         break
-      # go ahead if 
       # skip if we don't find our correct letters
       if correct_letters[idx] and correct_letters[idx] != char:
         missing_correct = True
