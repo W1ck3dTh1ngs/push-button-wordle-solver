@@ -13,6 +13,6 @@ How to use it:
 * Go back to the top of these instructions
 
 How it works:
-My friend did some analysis on the Wordle word list. He created the dataset responsible for looking at letter and position frequency. This means that we don't rely on only what words use the most common letters. Instead, we rank letters that make up words by how common it is for a letter to be in a given position in words of the Wordle wordlist.
+My friend did some analysis on the Wordle word list. He created the dataset responsible for looking at letter and position frequency. This means that we don't rely on only what words use the most common letters. Instead, we rank words by how common their letters are *positionally*.
 
 Using this method, we sum the frequency value of the letters in a given word. As you populate the previous_letters.py file with feedback from your previous guesses, it will cull the list of valid words until it finds the highest scoring word that is still valid by hard mode rules.
